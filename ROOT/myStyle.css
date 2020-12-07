@@ -1,0 +1,47 @@
+header {
+	border: solid;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+nav{
+	border: solid;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	position: sticky;
+	top: 0;
+	background-color: white;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	padding: 10px;
+}
+
+nav>a {
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
+
+nav>a:hover {
+	background-color: lightgray;
+}
+
+nav>a:visited {
+	color: black;
+}
+
+article {
+	border: solid;
+	border-radius: 10px;
+}
+
+footer {
+	margin-top: 10px;
+	border: solid;
+	border-radius: 10px;
+	position: sticky;
+	bottom: 0;
+	background-color: white;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
